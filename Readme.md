@@ -12,7 +12,7 @@ This project is a simple application that uses the **BLIP (Bootstrapped Language
 
 ## Screenshot
 
-![Web Interface](images/readme.png.png)
+![Web Interface](images/readme.png)
 
 ## Prerequisites
 
