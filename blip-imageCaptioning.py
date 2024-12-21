@@ -1,12 +1,11 @@
 # Install the transformers library
-!pip install transformers Pillow torch torchvision torchaudio
 from transformers import BlipProcessor, BlipForConditionalGeneration
 from PIL import Image
 # Initialize the processor and model from Hugging Face
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 # Load an image
-image = Image.open("path_to_your_image.jpg")
+image = Image.open("images/beach.png")
 # Prepare the image
 inputs = processor(image, return_tensors="pt")
 # Generate captions
